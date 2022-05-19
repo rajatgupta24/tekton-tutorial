@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h2>Resgistration Form</h2>
+    <form  onsubmit="validate(e)">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname">
+            <br>
+        
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname">
+            <br>
+ 
+            <label>Gender</label>
+            <br>
+        
+            <input type="radio" id="male" value="male" name="gender" checked="checked">
+            <label for="male">Male</label>
+            <br>
+            
+            <input type="radio" id="female"value="female" name="gender">
+            <label for="female">Female</label>
+            <br>
+ 
+            <label for="fname">Email:</label>
+            <input type="email" id="email" name="fname">
+        </fieldset>
+
+        <fieldset>
+            <legend>About College</legend>
+ 
+            <label for="fname">Institution Name</label>
+            <input type="text" id="clg" name="fname">
+            <br>
+
+            <label>Year</label>
+            <br>
+            
+            <input type="checkbox" id="1" value="1" name="year" checked="checked">
+            <label for="1"> 1st Year</label>
+            <br>
+
+            <input type="checkbox" id="2" value="2" name="year">
+            <label for="2"> 2nd Year</label>
+            <br>
+            
+            <input type="checkbox" id="3" value="3" name="year">
+            <label for="3"> 3rd Year</label>
+            <br>
+            
+            <input type="checkbox" id="4" value="4" name="year">
+            <label for="4"> 4th Year</label>
+            <br>
+
+            <label>Message: </label>
+            <textarea id="msg" name="w3review" rows="4" cols="50"></textarea>
+        </fieldset>
+        <div>
+            <input class="sub" id="btn" type="submit" value="Submit">
+            <input id="btn" type="reset">
+        </div>
+    </form>
+    <footer>
+        <p>Rajat Gupta<br>IT-E<br>04596303119</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
