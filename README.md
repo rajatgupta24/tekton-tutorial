@@ -1,4 +1,4 @@
-# Tekton 
+# Tekton-tut
 
 Tekton is a CI tool, which Jenkins X uses to build it's CI system.
 
